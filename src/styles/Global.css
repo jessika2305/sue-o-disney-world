@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: auto;
 }
 :root{
     --color-primary: #F2C5BB;
@@ -25,6 +24,8 @@ body{
     font-size: 1rem;
     line-height: 1.6;
     cursor: url('/img/iconos/varita.png'), auto;
+    overflow-x: hidden;
+    overflow-y: auto;
     
 }
 header{
