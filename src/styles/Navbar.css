@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: var(--color-text-light);
+    transition: background-color 0.3s ease;
+}
+a:hover{
+    color: var(--color-secondary)
+}
+
+.logo {
+  height: 50px;
+  cursor: pointer;
+}

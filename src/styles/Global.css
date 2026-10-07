@@ -1,0 +1,36 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-primary: #F2C5BB;
+    --color-secondary: #59320F;
+
+    --color-text: #A494A6;
+    --color-text-light: #7C09AD;
+
+    --color-accent: #7dc5e2;
+
+    --font-primary: "Poppins", sans-serif;
+    --font-secondary: "Pacifico", cursive;
+}
+body{
+    background-color: var(--color-primary);
+    font-family: var(--font-primary);
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    cursor: url('/img/iconos/varita.png'), auto;
+}
+header{
+    width: 100%;
+    background-color: var(--color-primary);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
