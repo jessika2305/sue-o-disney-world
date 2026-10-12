@@ -24,7 +24,12 @@ a:hover{
 .logo {
   height: 50px;
   cursor: pointer;
+  font-family: var(--font-secondary); 
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-secondary);
 }
+
 .hamburger {
   display: none; 
   font-size: 24px;
